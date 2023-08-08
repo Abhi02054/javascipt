@@ -22,4 +22,6 @@ const endGame= ()=>{
  document.querySelector('#start').addEventListener('click',start);
  document.querySelector('#stop').addEventListener('click',endGame);
 
-
+// const api = new XMLHttpRequest();
+// api.open('GET', 'https://api.coindesk.com/v1/bpi/currentprice.json');
+// api.send();
